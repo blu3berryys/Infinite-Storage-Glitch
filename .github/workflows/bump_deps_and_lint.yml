@@ -20,7 +20,7 @@ jobs:
           components: rustfmt
 
       - name: Setup OpenCV
-        run: apt install libopencv-dev clang libclang-dev
+        run: sudo apt install libopencv-dev clang libclang-dev
 
       - name: Bump dependencies
         run: cargo update --verbose

@@ -9,5 +9,5 @@ clap = { version = "4.5.24", features = ["derive"] }
 inquire = "0.7.5"
 opencv = "0.93.5"
 tokio = { version = "1.43.0", features = ["full"] }
-youtube_dl = { version = "0.10.0", features = ["downloader"] }
+youtube_dl = { version = "0.10.0", features = ["downloader-rustls-tls"] }
 chrono = "0.4.39"
